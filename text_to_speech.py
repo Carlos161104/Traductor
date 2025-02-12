@@ -16,5 +16,4 @@ def text_to_speech(input_txt_file, output_audio_file="output.mp3", lang="es"):
     except Exception as e:
         print(f"Error: {e}")
 
-# Uso: cambiar 'archivo.txt' por el nombre de tu archivo de texto
 text_to_speech("archivo.txt")
